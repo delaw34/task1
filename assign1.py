@@ -12,23 +12,28 @@ print(x!=y)
 
 #assigment 2 starts here
 
-#Write a Python function that takes 10 lists and returns True if they have
-#at least one common member
+Colors = ['blue', 'hisense', 'white', 'champagne', 'orange']
+Fruits = ['cherry', 'tangerine','orange', 'apple', 'hisense']
+Phone = ['hisense', 'infinix','orange','samsung', 'tecno']
+Drinks = ['vodka', 'orange','champagne', 'hisense', 'liquor']
+Laptop = ['samsung', 'apple','hisense', 'orange', 'hp']
+Makeup = ['mascara','orange','eyeliner', 'hisense','blush']
+Coffee = ['black', 'nescafe','orange', 'tetley','hisense']
+Software = ['python', 'orange', 'html', 'hisense', 'javascript']
+Tablet = ['hisense', 'android', 'xiaomi', 'orange', 'infinix']
+Conditioner = ['thermocool', 'orange', 'scanfrost', 'hisense']
+               
 
-colors = ["red", "white", "champagne", "cherry", "orange"]
-fruits = ["orange", "cherry", "mango", "apple", "banana"]
-phones = ["apple", "samsung", "vivo", "tecno", "orange"]
-wine = ["vodka", "champagne","spirit", "amarula", "orange"]
 
-coment_element = set(colors).intersection(fruits,wine,phones) 
+common_elements = set(Colors).intersection(Fruits,Phone,Drinks,Laptop,Makeup,Coffee,Softwara,Tablets,Conditioner)
 
-def cohort_4():
-    if coment_element:
-        print("TRUE!, the common elements are:", coment_element)
+def cohort_four():
+    if common_elements:
+        print('True!', 'The common elements are', common_elements)
     else:
-        print("FALSE!", "there are no common element")
-cohort_4()
-
+        print('False!', 'There are no common elements')
+    
+cohort_four()
 #assigment 2 starts ends here
 
 #assigment 3 starts here
