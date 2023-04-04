@@ -12,6 +12,9 @@ print(x!=y)
 
 #assigment 2 starts here
 
+#Write a Python function that takes 10 lists and returns True if they have
+#at least one common member
+
 Colors = ['blue', 'hisense', 'white', 'champagne', 'orange']
 Fruits = ['cherry', 'tangerine','orange', 'apple', 'hisense']
 Phone = ['hisense', 'infinix','orange','samsung', 'tecno']
@@ -25,7 +28,7 @@ Conditioner = ['thermocool', 'orange', 'scanfrost', 'hisense']
                
 
 
-common_elements = set(Colors).intersection(Fruits,Phone,Drinks,Laptop,Makeup,Coffee,Softwara,Tablets,Conditioner)
+common_elements = set(Colors).intersection(Fruits,Phone,Drinks,Laptop,Makeup,Coffee,Software,Tablet,Conditioner)
 
 def cohort_four():
     if common_elements:
